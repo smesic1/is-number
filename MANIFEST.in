@@ -1,0 +1,9 @@
+include versioneer.py
+include /home/centos/is-number/_version.py
+include README.rst
+include LICENSE
+include requirements.txt
+graft is_number
+recursive-exclude * *.py[co]
+
+
